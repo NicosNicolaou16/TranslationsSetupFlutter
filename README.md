@@ -9,7 +9,7 @@ Dart Version: 3.2.6 <br />
 
 # Steps
 
-1) Add the follow code in pubspec.yaml file.
+1) Add the follow setup in pubspec.yaml file.
 
 ```yaml
 dependencies:
@@ -19,12 +19,12 @@ dependencies:
     sdk: flutter # add this line
   intl: ^0.18.1 # add this line
 
-  # Other code
+  # Other Code Here
 
 flutter:
   generate: true # add this line
 
-  # Other code
+  # Other Code Here
 
 flutter_intl: # add this line
   enabled: false # add this line
