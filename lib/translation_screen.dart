@@ -15,6 +15,10 @@ class _TranslationScreenState extends State<TranslationScreen> {
       body: Center(
         child: Text(
           AppLocalizations.of(context)!.helloWorld,
+          style: const TextStyle(
+            fontSize: 21,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
     );
