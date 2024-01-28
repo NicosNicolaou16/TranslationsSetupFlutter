@@ -76,7 +76,7 @@ AppLocalizations.of(context)!.helloWorld
 
 ## Check my article
 
- <br />
+https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57 <br />
 
 # References
 
