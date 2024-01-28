@@ -32,9 +32,9 @@ flutter_intl: # add this line
 
 2) Create the l10n.yaml file under the project directory and initialize the translations directory.
 
-3) Create the translations file.
+3) Create the translation file(s).
 
-4) Initialize the translation in the Material app.
+4) Initialize the translation in the Material widget.
 
 ```dart
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -43,7 +43,7 @@ import 'package:translations_setup_flutter/translation_screen.dart';
 @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo Translation Setup',
+      title: 'Flutter Translation Setup',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
