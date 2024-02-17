@@ -4,8 +4,8 @@ This project includes the setup for translation in Flutter.
 
 ## Versions
 
-Flutter SDK version: 3.16.9 <br />
-Dart Version: 3.2.6 <br />
+Flutter SDK version: 3.19.0 <br />
+Dart Version: 3.3.0 <br />
 
 # Steps
 
