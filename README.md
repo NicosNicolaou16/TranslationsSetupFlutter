@@ -2,6 +2,9 @@
 
 This project includes the setup for translation in Flutter.
 
+> [!IMPORTANT]
+> NOTE: EXAMPLE FOR ANDROID ONLY. <br />
+
 ## Versions
 
 Flutter SDK version: 3.24.4 <br />
