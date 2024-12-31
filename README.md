@@ -14,7 +14,7 @@ dependencies:
     sdk: flutter
   flutter_localizations: # add this line
     sdk: flutter # add this line
-  intl: ^0.18.1 # add this line
+  intl: ^0.19.0 # add this line
 
   # Other Code Here
 
