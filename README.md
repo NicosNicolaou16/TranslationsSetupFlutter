@@ -78,6 +78,9 @@ AppLocalizations.of(context)!.helloWorld
 
 https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57 <br />
 
+> [!IMPORTANT]  
+> Check my article for the setup :point_right: [Translation Setup in Flutter with 5 steps - Medium](https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57) :point_left: <br />
+
 # References
 
 https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization <br />
