@@ -1,6 +1,6 @@
 # Translations Setup Flutter
 
-This project includes the setup for translation in Flutter.
+This project includes the setup for localization and translation in Flutter.
 
 # Steps
 
