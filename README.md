@@ -71,13 +71,7 @@ Widget build(BuildContext context) {
 ```dart
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-AppLocalizations.of
-(
-context
-)
-!
-.
-helloWorld
+AppLocalizations.of(context)!.helloWorld
 ```
 
 ## Check my article
