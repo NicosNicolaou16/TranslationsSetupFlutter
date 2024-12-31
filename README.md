@@ -41,29 +41,29 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:translations_setup_flutter/translation_screen.dart';
 
 @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Translation Setup',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      // add this code
-      localizationsDelegates: const [
-        AppLocalizations.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
-      // add this code
-      supportedLocales: const [
-        Locale('en'), // English
-        Locale('el'), // Greek
-      ],
-      home: const TranslationScreen(),
-    );
-  }
+Widget build(BuildContext context) {
+  return MaterialApp(
+    title: 'Flutter Translation Setup',
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      useMaterial3: true,
+    ),
+    // add this code
+    localizationsDelegates: const [
+      AppLocalizations.delegate,
+      GlobalMaterialLocalizations.delegate,
+      GlobalWidgetsLocalizations.delegate,
+      GlobalCupertinoLocalizations.delegate,
+    ],
+    // add this code
+    supportedLocales: const [
+      Locale('en'), // English
+      Locale('el'), // Greek
+    ],
+    home: const TranslationScreen(),
+  );
+}
 ```
 
 5) Initialize the String in Text(...) widget.
@@ -71,7 +71,13 @@ import 'package:translations_setup_flutter/translation_screen.dart';
 ```dart
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-AppLocalizations.of(context)!.helloWorld
+AppLocalizations.of
+(
+context
+)
+!
+.
+helloWorld
 ```
 
 ## Check my article
