@@ -1,13 +1,10 @@
 # Translations Setup Flutter
 
-This project includes the setup for translation in Flutter.
+This project includes the setup for localization and translation in Flutter.
 
-## Versions
+# Setup
 
-Flutter SDK version: 3.24.4 <br />
-Dart Version: 3.5.4 <br />
-
-# Steps
+## Steps
 
 1) Add the follow setup in pubspec.yaml file.
 
@@ -17,7 +14,7 @@ dependencies:
     sdk: flutter
   flutter_localizations: # add this line
     sdk: flutter # add this line
-  intl: ^0.18.1 # add this line
+  intl: ^0.19.0 # add this line
 
   # Other Code Here
 
@@ -41,29 +38,29 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:translations_setup_flutter/translation_screen.dart';
 
 @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Translation Setup',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      // add this code
-      localizationsDelegates: const [
-        AppLocalizations.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
-      // add this code
-      supportedLocales: const [
-        Locale('en'), // English
-        Locale('el'), // Greek
-      ],
-      home: const TranslationScreen(),
-    );
-  }
+Widget build(BuildContext context) {
+  return MaterialApp(
+    title: 'Flutter Translation Setup',
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      useMaterial3: true,
+    ),
+    // add this code
+    localizationsDelegates: const [
+      AppLocalizations.delegate,
+      GlobalMaterialLocalizations.delegate,
+      GlobalWidgetsLocalizations.delegate,
+      GlobalCupertinoLocalizations.delegate,
+    ],
+    // add this code
+    supportedLocales: const [
+      Locale('en'), // English
+      Locale('el'), // Greek
+    ],
+    home: const TranslationScreen(),
+  );
+}
 ```
 
 5) Initialize the String in Text(...) widget.
@@ -74,9 +71,13 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 AppLocalizations.of(context)!.helloWorld
 ```
 
-## Check my article
+> [!IMPORTANT]  
+> Check my article for the setup :point_right: [Translation Setup in Flutter with 5 steps - Medium](https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57) :point_left: <br />
 
-https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57 <br />
+## Versioning
+
+Flutter SDK version: 3.27.1 <br />
+Dart Version: 3.6.0 <br />
 
 # References
 
