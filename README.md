@@ -2,11 +2,6 @@
 
 This project includes the setup for translation in Flutter.
 
-## Versions
-
-Flutter SDK version: 3.24.4 <br />
-Dart Version: 3.5.4 <br />
-
 # Steps
 
 1) Add the follow setup in pubspec.yaml file.
@@ -80,6 +75,11 @@ https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688
 
 > [!IMPORTANT]  
 > Check my article for the setup :point_right: [Translation Setup in Flutter with 5 steps - Medium](https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57) :point_left: <br />
+
+## Versioning
+
+Flutter SDK version: 3.24.4 <br />
+Dart Version: 3.5.4 <br />
 
 # References
 
