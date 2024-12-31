@@ -2,7 +2,9 @@
 
 This project includes the setup for localization and translation in Flutter.
 
-# Steps
+# Setup
+
+## Steps
 
 1) Add the follow setup in pubspec.yaml file.
 
@@ -68,10 +70,6 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 AppLocalizations.of(context)!.helloWorld
 ```
-
-## Check my article
-
-https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57 <br />
 
 > [!IMPORTANT]  
 > Check my article for the setup :point_right: [Translation Setup in Flutter with 5 steps - Medium](https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57) :point_left: <br />
