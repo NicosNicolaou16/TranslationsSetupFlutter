@@ -77,7 +77,8 @@ Widget build(BuildContext context) {
 5) Initialize the String in Text(...) widget.
 
 ```dart
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+// import 'package:flutter_gen/gen_l10n/app_localizations.dart'; old import
+import 'package:translations_setup_flutter/l10n/app_localizations.dart'; // new import based on the project package
 
 AppLocalizations.of(context)!.helloWorld
 ```
