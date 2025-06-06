@@ -94,3 +94,4 @@ Dart Version: 3.8.1 <br />
 # References
 
 https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization <br />
+https://docs.flutter.dev/release/breaking-changes/flutter-generate-i10n-source <br />
