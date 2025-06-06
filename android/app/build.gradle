@@ -24,9 +24,9 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.nicos.translations_setup_flutter"
-    buildToolsVersion '35.0.0'
+    buildToolsVersion '35.0.1'
     compileSdk 35
-    ndkVersion '27.2.12479018'
+    ndkVersion '28.1.13356709'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
