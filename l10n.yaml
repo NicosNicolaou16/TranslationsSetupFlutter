@@ -2,5 +2,5 @@ arb-dir: lib/l10n
 template-arb-file: app_en.arb
 output-localization-file: app_localizations.dart
 # Reference: https://docs.flutter.dev/release/breaking-changes/flutter-generate-i10n-source
-# migration to new Localization - From Flutter version  3.28.0-0.0.pre and now it's stable in Flutter Version 3.32.0
+# migration to new Localization - From Flutter version 3.28.0-0.0.pre and now it's stable in Flutter Version 3.32.0
 synthetic-package: false
