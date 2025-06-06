@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:translations_setup_flutter/l10n/app_localizations.dart';
 
 class TranslationScreen extends StatefulWidget {
   const TranslationScreen({super.key});
