@@ -88,8 +88,8 @@ AppLocalizations.of(context)!.helloWorld
 
 ## Versioning
 
-Flutter SDK version: 3.35.4 <br />
-Dart Version: 3.9.2 <br />
+Flutter SDK version: 3.38.5 <br />
+Dart Version: 3.10.4 <br />
 
 # References
 
