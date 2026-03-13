@@ -11,13 +11,17 @@
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@nicosnicolaou16)
 [![Static Badge](https://img.shields.io/badge/Developer_Profile-blue?style=for-the-badge&label=Google)](https://g.dev/nicolaou_nicos)
 
-This project includes the setup for localization and translation in Flutter.
+A guide and starter project for implementing **Localization (i18n)** and **Internationalization** in Flutter. This project demonstrates the standard way to handle multiple languages using `flutter_localizations` and the `intl` package.
 
-# Setup
+> [!IMPORTANT]  
+> A detailed step-by-step guide is available on Medium!  
+> 👉 **[Translation Setup in Flutter with 5 steps](https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57)** 👈
 
-## Steps
+## 🚀 Setup Steps
 
-1) Add the follow setup in pubspec.yaml file.
+### 1. Update pubspec.yaml
+
+Add the necessary dependencies and enable the `generate` flag.
 
 ```yaml
 dependencies:
@@ -38,11 +42,17 @@ flutter_intl: # add this line
   enabled: false # add this line
 ```
 
-2) Create the l10n.yaml file under the project directory and initialize the translations directory.
+### 2. Configure l10n.yaml
 
-3) Create the translation file(s).
+Create an `l10n.yaml` file in the root of your project to define the input and output directories for your translations.
 
-4) Initialize the translation in the Material widget.
+### 3. Create Translation Files
+
+Add your `.arb` files (e.g., `app_en.arb`, `app_el.arb`) in the designated translations directory.
+
+### 4. Material App Initialization
+
+Configure the `MaterialApp` with the generated localization delegates and supported locales.
 
 ```dart
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -74,7 +84,10 @@ Widget build(BuildContext context) {
 }
 ```
 
-5) Initialize the String in Text(...) widget.
+
+### 5. Accessing Strings
+
+Use the generated `AppLocalizations` class to access your strings in the UI.
 
 ```dart
 // import 'package:flutter_gen/gen_l10n/app_localizations.dart'; old import
@@ -83,15 +96,22 @@ import 'package:translations_setup_flutter/l10n/app_localizations.dart'; // new 
 AppLocalizations.of(context)!.helloWorld
 ```
 
-> [!IMPORTANT]  
-> Check my article for the setup :point_right: [Translation Setup in Flutter with 5 steps - Medium](https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57) :point_left: <br />
+## 🔧 Versioning
 
-## Versioning
+- **Flutter SDK:** **3.41.4**
+- **Dart Version:** **3.11.1**
+- **Intl Package:** **^0.20.2**
 
-Flutter SDK version: 3.38.5 <br />
-Dart Version: 3.10.4 <br />
+## 📚 References & Tutorials
 
-# References
+- **Official Documentation:** [Internationalizing Flutter apps](https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization)
+- **Breaking Changes:** [Flutter Generate i10n Source](https://docs.flutter.dev/release/breaking-changes/flutter-generate-i10n-source)
 
-https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization <br />
-https://docs.flutter.dev/release/breaking-changes/flutter-generate-i10n-source <br />
+## ⭐ Stargazers
+
+If you find this project useful, please give it a star!  
+[Check out the stargazers here](https://github.com/NicosNicolaou16/TranslationsSetupFlutter/stargazers)
+
+## 🙏 Support & Contributions
+
+This project is maintained for the community. Feedback, bug reports, and feature requests are welcome! Feel free to **open an issue** or submit a **pull request**.
