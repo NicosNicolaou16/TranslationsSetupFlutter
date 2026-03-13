@@ -112,3 +112,12 @@ AppLocalizations.of(context)!.helloWorld
 
 - **Official Documentation:** [Internationalizing Flutter apps](https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization)
 - **Breaking Changes:** [Flutter Generate i10n Source](https://docs.flutter.dev/release/breaking-changes/flutter-generate-i10n-source)
+
+## ⭐ Stargazers
+
+If you find this project useful, please give it a star!  
+[Check out the stargazers here](https://github.com/NicosNicolaou16/TranslationsSetupFlutter/stargazers)
+
+## 🙏 Support & Contributions
+
+This project is maintained for the community. Feedback, bug reports, and feature requests are welcome! Feel free to **open an issue** or submit a **pull request**.
