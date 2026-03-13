@@ -17,10 +17,7 @@ A guide and starter project for implementing **Localization (i18n)** and **Inter
 > A detailed step-by-step guide is available on Medium!  
 > 👉 **[Translation Setup in Flutter with 5 steps](https://medium.com/@nicosnicolaou/translation-setup-in-flutter-with-5-steps-4688ac14ea57)** 👈
 
-
 ## 🚀 Setup Steps
-
-## Steps
 
 ### 1. Update pubspec.yaml
 
