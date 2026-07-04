@@ -98,7 +98,7 @@ AppLocalizations.of(context)!.helloWorld
 
 ## 🔧 Versioning
 
-- **Flutter SDK:** **3.41.4**
+- **Flutter SDK:** **3.44.4**
 - **Dart Version:** **3.11.1**
 - **Intl Package:** **^0.20.2**
 
